@@ -1,0 +1,147 @@
+/* nav */
+.nav{
+    padding: 45px 101px 0;
+}
+.nav p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #5727E7;
+}
+.nav .login-btn{
+    color: black;
+    background-color: #E9E9E9;
+    padding: 10px 45px;
+}
+.nav .get-started-btn{
+    background-color: #5727E7;
+    padding: 10px 26px;
+}
+.nav .login-btn,
+.nav .get-started-btn{
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* mobile nav */
+
+.nav .mobile-nav{
+    display: none;
+}
+
+/* mobile nav */
+
+/* nav */
+
+
+/* videos*/
+
+.videos{
+    margin-top: 172px;
+}
+
+.videos .heading p:nth-child(1),
+.videos .heading p:nth-child(2){
+    font-size: 64px;
+    font-weight: bold;
+}
+.videos .heading p:nth-child(2){
+    margin-bottom: 23px;
+}
+.videos .heading p:nth-child(2) span{
+    color: #5727E7;
+}
+
+.videos p {
+    font-size: 21px;
+    margin: 0;
+}
+
+.videos .btn{
+    width: fit-content;
+    margin: 33px auto 0;
+    padding: 17px 58px;
+    border-radius: 13px;
+    background-color: #5727E7;
+}
+
+.videos .video-container{
+    margin: 220px 0 102px 0;
+    padding: 0 101px;
+}
+
+.videos .video-player{
+    width: 714px;
+    height: 452px;
+    background-color: #D9D9D9;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videos .circle{
+    width: 89px;
+    height: 89px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px 0px #00000040;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.videos .card{
+    padding: 27px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 7px 0px #00000033;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.videos .card .flag{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.videos .card .language{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.videos .card .language p:nth-child(1){
+    font-size: 20px;
+    font-weight: 500;
+}
+.videos .card .language p:nth-child(2){
+    color:#737373;
+}
+
+/* videos*/
+
+
+
+/* respomsive */
+
+@media  (max-width : 1200px){
+    .nav{
+        padding: 45px 50px 0;
+    }
+}
+@media  (max-width : 992px){
+    .nav{}
+
+    .desktop-nav{
+        display: none;
+    }
+    .nav .mobile-nav{
+        display: block;
+    }
+}
