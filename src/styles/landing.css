@@ -1,3 +1,16 @@
+/* general */
+button{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.purple-btn{
+    color: white;
+    background-color: #5727E7;
+}
+
 /* nav */
 .nav{
     padding: 45px 101px 0;
@@ -8,12 +21,10 @@
     color: #5727E7;
 }
 .nav .login-btn{
-    color: black;
     background-color: #E9E9E9;
     padding: 10px 45px;
 }
 .nav .get-started-btn{
-    background-color: #5727E7;
     padding: 10px 26px;
 }
 .nav .login-btn,
@@ -61,7 +72,6 @@
     margin: 33px auto 0;
     padding: 17px 58px;
     border-radius: 13px;
-    background-color: #5727E7;
 }
 
 .videos .video-container{
@@ -136,12 +146,56 @@
     }
 }
 @media  (max-width : 992px){
-    .nav{}
 
     .desktop-nav{
         display: none;
     }
     .nav .mobile-nav{
         display: block;
+    }
+    .mobile-nav .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: white;
+        box-shadow: -7px 0px 17px 0px #00000040;
+        min-height: 100vh;
+        min-width: 436px;
+        padding: 0 48px;
+        transition: 0.3s;
+        transform: translateX(105%);
+    }
+    .mobile-nav .menu .logo-container{
+        position: relative;
+        margin: 54px 0;
+        text-align: center;
+    }
+    .mobile-nav .menu .close-icon{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+    }
+    .mobile-nav .menu .logo{
+        margin: 0;
+    }
+    .mobile-nav .menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #545454;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .mobile-nav .menu ul li{
+        margin-bottom: 34px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 768px) {
+    .mobile-nav .menu{
+        width: 100%;
+        padding: 0 35px;
     }
 }

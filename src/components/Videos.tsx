@@ -13,7 +13,7 @@ const Videos = () => {
                     <p>Translate your</p>
                     <p>videos <span>with AI</span></p>
                     <p>Make your content multilingual in seconds and reach people worldwide</p>
-                    <Button className='btn' variant='contained' size='medium' disableElevation >Get  Started, it’s Free</Button>
+                    <button className='btn purple-btn'>Get  Started, it’s Free</button>
                 </Stack>
             </div>
             <div className='video-container'>
